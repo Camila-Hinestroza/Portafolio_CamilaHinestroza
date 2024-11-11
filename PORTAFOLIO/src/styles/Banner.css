@@ -1,0 +1,40 @@
+/* src/pages/banner/Banner.css */
+.banner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f4d1cd, #f49080);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .banner.slide-up {
+    transform: translateY(-100%); /* Desplazar el banner hacia arriba */
+  }
+  
+  .banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .scroll-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .scroll-button:hover {
+    transform: translateY(5px);
+  }
+  

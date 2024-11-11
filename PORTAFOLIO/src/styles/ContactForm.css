@@ -1,0 +1,90 @@
+/* src/pages/contact/ContactForm.css */
+.contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-field {
+    margin-bottom: 1.2rem;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-field input:focus,
+  .form-field textarea:focus {
+    outline: none;
+    border-color: #4e54c8;
+    transition: border-color 0.3s;
+  }
+  
+  .form-field .error {
+    color: red;
+    font-size: 0.9rem;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4e54c8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #8f94fb;
+  }
+  
+  .submit-btn:active {
+    transform: scale(0.98);
+  }
+  
+  .submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .submit-btn.loading {
+    background-color: #8f94fb; /* Color diferente mientras se envía */
+    pointer-events: none; /* Desactivamos el clic */
+  }
+  
+  .spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #4e54c8;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
