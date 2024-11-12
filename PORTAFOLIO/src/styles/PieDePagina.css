@@ -1,0 +1,20 @@
+.pie-de-pagina {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .contacto {
+    width: 60%;
+  }
+  
+  .redes-sociales {
+    width: 35%;
+  }
+  
+  .redes-sociales a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  

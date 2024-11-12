@@ -30,7 +30,6 @@ import React from 'react';
 const Main = () => {
   return (
     <div id="main">
-      {/* Aquí va el contenido de la página principal */}
       <h2>Página Principal</h2>
     </div>
   );

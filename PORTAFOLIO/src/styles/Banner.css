@@ -1,23 +1,24 @@
-/* src/pages/banner/Banner.css */
 .banner {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #f4d1cd, #f49080);
+    background: linear-gradient(135deg, #f5edec,#acadb9);
     color: #fff;
     text-align: center;
     position: relative;
     transition: transform 0.5s ease-out;
+    font-family: "Homer Simpson UI";
   }
   
   .banner.slide-up {
-    transform: translateY(-100%); /* Desplazar el banner hacia arriba */
+    transform: translateY(-100%); 
   }
   
   .banner-content h1 {
-    font-size: 3rem;
+    font-size: 80px;
     margin-bottom: 1rem;
+    color: #e97b64;
   }
   
   .banner-content p {
@@ -28,7 +29,7 @@
   .scroll-button {
     background: none;
     border: none;
-    color: white;
+    color: #626470;
     font-size: 2rem;
     cursor: pointer;
     transition: transform 0.3s ease;

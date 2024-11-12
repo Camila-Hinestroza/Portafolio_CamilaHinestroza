@@ -1,4 +1,3 @@
-// pages/Banner/Banner.js
 import React from 'react';
 import BannerLogica from './components/BannerLogica';
 import '../../styles/Banner.css'; 
@@ -9,7 +8,7 @@ const Banner = () => {
     const navigate = useNavigate();
   
     const handleScrollToMain = () => {
-      navigate('/main'); // Redirigir a Main después del efecto
+      navigate('/central'); 
     };
   
     return (

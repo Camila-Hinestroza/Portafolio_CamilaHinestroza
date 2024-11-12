@@ -1,0 +1,51 @@
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f8f8; 
+    padding: 60px 20px;
+    padding-right: 350px;
+    padding-left: 350px;
+  }
+  
+  .sobre-mi h1 {
+    font-family: "Homer Simpson UI";
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: -20px;
+    color: #333;
+  }
+  
+  .sobre-mi h2 {
+    font-family: "Courier New";
+    font-size: 40px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .descripcion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .sobre-mi .descripcion p {
+    width: 40%;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    text-align: left;
+    
+  }
+
+  
+  .sobre-mi .linea-horizontal {
+    width: 80%;
+    height: 2px;
+    background-color: #dcdcdc;
+    margin: 30px auto;
+  }
+  

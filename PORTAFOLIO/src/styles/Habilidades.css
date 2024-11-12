@@ -1,0 +1,87 @@
+.habilidades {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    padding: 20px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .habilidades h1 {
+    font-family: "Homer Simpson UI";
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
+    margin-top: -10vh;
+    margin-bottom: 100px;
+  }
+
+  
+.habilidades .habilidades-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 0px;
+  width: 70% ;
+}
+
+.habilidades .habilidades-list {
+  width: 50%;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.habilidades .habilidades-list div {
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+.habilidades .habilidades-list h2 {
+  font-family: "Homer Simpson UI";
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+.habilidades .habilidades-list p {
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #777;
+}
+
+.clima {
+  background: linear-gradient(145deg, #ffffff, #9cbdee);
+  border-radius: 12px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin-top: 20px;
+  width: 400px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.clima h2 {
+  font-size: 30px;
+  color: #005f73;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.clima p {
+  font-size: 16px;
+  color: #023047;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.clima-icon {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  display: block;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.3));
+}
+  
