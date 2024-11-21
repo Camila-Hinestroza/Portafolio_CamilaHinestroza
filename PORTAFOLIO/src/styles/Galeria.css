@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   background-color: #ffffff; 
 }
@@ -29,7 +29,7 @@
 }
 
 .tarjeta {
-  background-color: #9b9eb4;
+  background: linear-gradient(135deg,rgb(224, 209, 206),rgb(235, 228, 227));
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 320px;
@@ -39,6 +39,8 @@
   align-items: center;
   text-align: center;
   transition: transform 0.2s;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
@@ -47,8 +49,9 @@
 }
 
 .tarjeta-imagen {
+  padding-top: 10PX;
   width: 100%;
-  height: 180px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -57,18 +60,20 @@
 }
 
 .tarjeta h3 {
-  font-size: 18px;
-  color: #333;
+  font-size: 20px;
+  color: #000000;
   margin-bottom: 10px;
+  font-family: "Homer Simpson UI";
 }
 
 .tarjeta p {
   font-size: 14px;
   color: #666;
+  font-family: monospace;
 }
 
 .tarjeta a {
-  color: #007bff;
+  color: #333; 
   text-decoration: none;
   font-weight: bold;
   margin-top: 10px;
@@ -76,5 +81,5 @@
 }
 
 .tarjeta a:hover {
-  color: #0056b3;
+  color: #e97b64;
 }

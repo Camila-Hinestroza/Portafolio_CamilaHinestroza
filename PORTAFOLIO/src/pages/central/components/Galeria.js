@@ -1,35 +1,31 @@
 import React from 'react';
 import '../../../styles/Galeria.css'; 
+import biblioteca from '../../../Imagenes/biblioteca.jpg';
+import calculadora from '../../../Imagenes/calculadora.jpg';
+import juego from '../../../Imagenes/juego.jpg';
 
 const Galeria = () => {
   const proyectos = [
     {
       id: 1,
-      titulo: "Proyecto 1",
-      descripcion: "Descripción breve del proyecto 1.",
-      imagen: "url_de_la_imagen_1",
-      link: "https://github.com/usuario/proyecto1"
+      titulo: "Gestion de Biblioteca",
+      descripcion: "Pagina Web para gestion de libros y usuarios en una Biblioteca desarrollado en HTML, CSS Y JS.",
+      imagen: biblioteca,
+      link: "https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/tree/main/Gestion_de_Biblioteca"
     },
     {
       id: 2,
-      titulo: "Proyecto 2",
-      descripcion: "Descripción breve del proyecto 2.",
-      imagen: "url_de_la_imagen_2",
-      link: "https://github.com/usuario/proyecto2"
+      titulo: "Calculadora de notas",
+      descripcion: "Su funcion es poder ayudar al manejo de las notas estudiantiles universitarias, desarrollada en C#.",
+      imagen: calculadora,
+      link: "https://github.com/Myva0512/HerramientasProgramacion3/tree/main/Calculadora_Notas_Estudiantes"
     },
     {
       id: 3,
-      titulo: "Proyecto 2",
-      descripcion: "Descripción breve del proyecto 2.",
-      imagen: "url_de_la_imagen_2",
-      link: "https://github.com/usuario/proyecto2"
-    },
-    {
-      id: 4,
-      titulo: "Proyecto 2",
-      descripcion: "Descripción breve del proyecto 2.",
-      imagen: "url_de_la_imagen_2",
-      link: "https://github.com/usuario/proyecto2"
+      titulo: "Juego",
+      descripcion: "Juego de Piedra, Papel y Tijera con interaccion entre usuario y consola desarrollado en C#.",
+      imagen: juego,
+      link: "https://github.com/Camila-Hinestroza/Herramientas-de-Programacion-3/tree/main/Piedra_Papel_Tijera"
     },
   ];
 

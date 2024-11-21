@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #f5edec,#acadb9);
+    background: linear-gradient(135deg,rgb(224, 209, 206),rgb(235, 228, 227));
     color: #fff;
     text-align: center;
     position: relative;
@@ -18,18 +18,19 @@
   .banner-content h1 {
     font-size: 80px;
     margin-bottom: 1rem;
-    color: #e97b64;
+    color: #180a07;
   }
   
   .banner-content p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    color: #000;
   }
   
   .scroll-button {
     background: none;
     border: none;
-    color: #626470;
+    color: #e97b64;
     font-size: 2rem;
     cursor: pointer;
     transition: transform 0.3s ease;

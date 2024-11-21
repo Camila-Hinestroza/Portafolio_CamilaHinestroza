@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     height: 80vh;
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 0px;
     flex-direction: column;
     background-color: #ffffff;
@@ -22,13 +22,14 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 0px;
+  margin-top: 0;
   width: 70% ;
 }
 
 .habilidades .habilidades-list {
-  width: 50%;
+  width: 80%;
   padding-right: 20px;
+  padding-top: 2%;
   text-align: left;
 }
 
@@ -52,14 +53,14 @@
 }
 
 .clima {
-  background: linear-gradient(145deg, #ffffff, #9cbdee);
+  background: linear-gradient(145deg, #ffffff, #acc6ec);
   border-radius: 12px;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 50px;
   margin-top: 20px;
   width: 400px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: monospace;
   color: #333;
 }
 

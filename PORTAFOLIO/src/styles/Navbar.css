@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: flex-end; 
-    background-color: #f0f4f8; 
+    background-color: #d9dae2;
     padding: 20px 30px; 
 }
 
@@ -17,5 +17,5 @@
 }
 
 .navbar-links a:hover {
-    color: #007BFF; 
+    color: #e97b64; 
 }

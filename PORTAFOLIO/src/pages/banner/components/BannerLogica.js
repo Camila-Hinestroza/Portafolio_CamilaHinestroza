@@ -13,8 +13,8 @@ const BannerLogica = ({ onScroll }) => {
   return (
     <div className={`banner ${isScrolled ? 'slide-up' : ''}`}>
       <div className="banner-content">
-        <h1>Bienvenido a mi Portafolio</h1>
-        <p>Desarrolladora de Software </p>
+        <h1>¡BIENVENIDO A MI PORTAFOLIO!</h1>
+        <p>Desarrolladora de Software Junior </p>
         <button className="scroll-button" onClick={handleScrollToMain}>
           ⬇
         </button>

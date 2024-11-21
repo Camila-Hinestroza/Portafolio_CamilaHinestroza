@@ -25,18 +25,22 @@ const Habilidades = () => {
   }, []);
 
   return (
-    <section className="habilidades">
+    <section className="habilidades" id="habilidades">
       <h1>HABILIDADES</h1>
       <div className="habilidades-content">
         <div className="habilidades-list">
           <div>
-            <h2>Habilidad 1</h2>
-            <p>Descripción de la habilidad 1..</p>
+            <h2>Desarrollo Front-end en proceso</h2>
+            <p>creación de interfaces de usuario intuitivas y responsivas utilizando tecnologías como HTML, CSS, JavaScript</p>
             <p></p>
           </div>
           <div>
-            <h2>Habilidad 2</h2>
-            <p>Descripción de la habilidad 2...</p>
+            <h2>Resolución de Problemas</h2>
+            <p> Habilidad para analizar y solucionar problemas, optimizar el rendimiento de aplicaciones y desarrollando soluciones.</p>
+          </div>
+          <div>
+            <h2>Desarrollo de Aplicaciones CRUD</h2>
+            <p> Competencia en la creación de aplicaciones que permitan realizar operaciones básicas de bases de datos.</p>
           </div>
         </div>
         <div className="clima">
